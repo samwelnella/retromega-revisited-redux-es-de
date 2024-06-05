@@ -77,6 +77,11 @@ The theme has a simple set of options that can be changed directly from the UI S
 - Controller Images created by [Pineapple Graphics](https://www.instagram.com/pineapple.graphics/)
 - The base folder image used to create the All Games, Favorites, Last Played and Custom Collections images was sourced from [Rick Patrick](https://www.softicons.com/designers/rick-patrick).
 - The icons on the folder images were sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
+- clusterm theme images: [ClusterM](https://github.com/ClusterM/hakchi2/tree/master/folder_images) and [faustbear](https://www.reddit.com/r/miniSNESmods/comments/995ylx/additional_pixel_art_icon_pack_22/)
+- symbian image: https://scrixels.tumblr.com/post/183215674338/585-cell-phone
+- gc, wii, ps2, ps3, ps4, ngp, xbox, wiiu, cdi, xbox360 and switch images: spritedatabase.net
+- macintosh image: https://sketchfab.com/blogs/community/art-spotlight-pixels-voxels-1984-apple-macintosh-128k/
+- apple2gs, arcadia, archimedes, astrocade, cdtv, channelf, crvision, fm7, fmtowns, game.com, gmaster, moto, n64dd, neogeocd, ngage, oric, pc88, plus4, pv100, samcoupe, satellaview, scv, spectravideo, sufami, supervision, supracan, to8, videopac, vsmile, windows, windows9x, x1 and atarijaguarcd images: www.screenscraper.net
 
 ## **License**
 
