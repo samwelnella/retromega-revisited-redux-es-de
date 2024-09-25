@@ -32,14 +32,24 @@ based on 1040x480
          <pos>0.765625 0</pos><!-- 490 0 -->
          <size>0.2125 1</size><!-- 136 100% -->
       </image>
+      <text name="manufacturer-name">
+         <pos>0.015 ${yPosManufacturer}</pos><!-- 34 212.5 -->
+         <size>0.39375 0.525</size><!-- 252 252 -->
+         <fontSize>0.025</fontSize><!-- 36 -->
+      </text>
       <text name="system-name">
-         <pos>0.053125 0.442708333333333</pos><!-- 34 212.5 -->
+         <pos>0.015 0.442708333333333</pos><!-- 34 212.5 -->
          <size>0.39375 0.525</size><!-- 252 252 -->
          <fontSize>0.075</fontSize><!-- 36 -->
       </text>
+      <text name="gamecount-name">
+         <pos>0.015 ${yPosGameCount}</pos><!-- 34 212.5 -->
+         <size>0.39375 0.525</size><!-- 252 252 -->
+         <fontSize>0.025</fontSize><!-- 36 -->
+      </text>
       <image name="system-artwork">
-         <pos>0.759615384615385 0.442708333333333</pos><!-- 500 790 -->
-         <maxSize>0.6640625 0.885416666666667</maxSize><!-- 425 425 -->
+         <pos>0.731535756154748 0.442708333333333</pos><!-- 500 624 -->
+         <maxSize>0.5 0.65</maxSize><!-- 425 425 -->
       </image>
    </view>
 

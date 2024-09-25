@@ -102,7 +102,17 @@ license:          creative commons CC-BY-NC-SA
          <origin>0.5 0</origin>
          <path>./_inc/images/stripe.png</path>
          <zIndex>1</zIndex>
+         <interpolation>linear</interpolation>
       </image>
+      <text name="manufacturer-name">
+         <origin>0 0.5</origin>
+         <fontPath>${fontBold}</fontPath>
+         <lineSpacing>1</lineSpacing>
+         <color>${systemViewNameColor}</color>
+         <letterCase>uppercase</letterCase>
+         <text>${systemManufacturer} · ${systemReleaseYear}</text>
+         <zIndex>3</zIndex>
+      </text>
       <text name="system-name">
          <origin>0 0.5</origin>
          <fontPath>${fontBold}</fontPath>
@@ -111,11 +121,19 @@ license:          creative commons CC-BY-NC-SA
          <text>${systemName}</text>
          <zIndex>3</zIndex>
       </text>
+      <text name="gamecount-name">
+         <origin>0 0.5</origin>
+         <fontPath>${fontBold}</fontPath>
+         <lineSpacing>1</lineSpacing>
+         <color>${systemViewNameColor}</color>
+         <systemdata>gamecountGames</systemdata>
+         <zIndex>3</zIndex>
+      </text>
       <image name="system-artwork">
          <origin>0.5 0.5</origin>
          <default>./_inc/systems/controllers/_default.png</default>
          <path>./_inc/systems/controllers/${system.theme}.png</path>
-         <interpolation>linear</interpolation>
+         <interpolation>nearest</interpolation>
          <color>${systemArtworkColor}</color>
          <saturation>${systemArtworkSaturation}</saturation>
          <brightness>${systemArtworkBrigtness}</brightness>

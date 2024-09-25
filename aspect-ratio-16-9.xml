@@ -3,7 +3,7 @@
 based on 853x480
 -->
 <theme>
-
+   <include>./_inc/systems/metadata-custom/${system.theme}.xml</include>
    <!--
    ///
    All Views
@@ -11,7 +11,7 @@ based on 853x480
    -->
    <view name="system,gamelist">
       <helpsystem name="help">
-         <pos>0.0375 0.942708333333333</pos><!-- 24 452.5 -->
+         <pos>0.015 0.942708333333333</pos><!-- 24 452.5 -->
          <posDimmed>0.5 0.942708333333333</posDimmed>
          <fontSize>${helpSystemFontSize}</fontSize>
          <entrySpacing>0.018757327080891</entrySpacing><!-- 16 -->
@@ -42,14 +42,24 @@ based on 853x480
          <pos>0.765625 0</pos><!-- 490 0 -->
          <size>0.2125 1</size><!-- 136 100% -->
       </image>
+      <text name="manufacturer-name">
+         <pos>0.015 ${yPosManufacturer}</pos><!-- 34 212.5 -->
+         <size>0.39375 0.525</size><!-- 252 252 -->
+         <fontSize>0.025</fontSize><!-- 36 -->
+      </text>
       <text name="system-name">
-         <pos>0.053125 0.442708333333333</pos><!-- 34 212.5 -->
+         <pos>0.015 0.442708333333333</pos><!-- 34 212.5 -->
          <size>0.39375 0.525</size><!-- 252 252 -->
          <fontSize>0.075</fontSize><!-- 36 -->
       </text>
+      <text name="gamecount-name">
+         <pos>0.015 ${yPosGameCount}</pos><!-- 34 212.5 -->
+         <size>0.39375 0.525</size><!-- 252 252 -->
+         <fontSize>0.025</fontSize><!-- 36 -->
+      </text>
       <image name="system-artwork">
          <pos>0.731535756154748 0.442708333333333</pos><!-- 500 624 -->
-         <maxSize>0.6640625 0.885416666666667</maxSize><!-- 425 425 -->
+         <maxSize>0.5 0.65</maxSize><!-- 425 425 -->
       </image>
    </view>
 
