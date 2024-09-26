@@ -1,7 +1,9 @@
 <theme>
    <variables>
       <systemColor>940A24</systemColor>
-      <yPosManufacturer>0.342708333333333</yPosManufacturer>
-      <yPosGameCount>0.542708333333333</yPosGameCount>
+      <yPosManufacturer16_9>0.339708333333333</yPosManufacturer16_9>
+      <yPosGameCount16_9>0.545708333333333</yPosGameCount16_9>
+      <yPosManufacturer3_2>0.339708333333333</yPosManufacturer3_2>
+      <yPosGameCount3_2>0.545708333333333</yPosGameCount3_2>
    </variables>
 </theme>

@@ -13,7 +13,9 @@
       <systemColorPalette2>777777</systemColorPalette2>
       <systemColorPalette3>555555</systemColorPalette3>
       <systemColorPalette4>333333</systemColorPalette4>
-      <yPosManufacturer>0.381008333333333</yPosManufacturer>
-      <yPosGameCount>0.505808333333333</yPosGameCount>
+      <yPosManufacturer16_9>0.378008333333333</yPosManufacturer16_9>
+      <yPosGameCount16_9>0.508808333333333</yPosGameCount16_9>
+      <yPosManufacturer3_2>0.378008333333333</yPosManufacturer3_2>
+      <yPosGameCount3_2>0.508808333333333</yPosGameCount3_2>
    </variables>
 </theme>

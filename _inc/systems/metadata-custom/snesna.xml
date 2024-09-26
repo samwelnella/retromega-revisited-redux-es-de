@@ -1,6 +1,8 @@
 <theme>
    <variables>
-      <yPosManufacturer>0.304408333333333</yPosManufacturer>
-      <yPosGameCount>0.579608333333333</yPosGameCount>
+      <yPosManufacturer16_9>0.301408333333333</yPosManufacturer16_9>
+      <yPosGameCount16_9>0.582608333333333</yPosGameCount16_9>
+      <yPosManufacturer3_2>0.301408333333333</yPosManufacturer3_2>
+      <yPosGameCount3_2>0.582608333333333</yPosGameCount3_2>
    </variables>
 </theme>
